@@ -14,6 +14,37 @@ public class Test8 {
     //solution(min1, min2_10, min11, s) = 14.
 
     public static void main(String[] args) {
+        int min1 = 10;
+        int min2_10 = 10;
+        int min11 = 10;
+        int s = 8;
+        System.out.println(solution(min1, min2_10, min11, s));
+    }
 
+    private static int solution(int min1, int min2_10, int min11, int s) {
+        int totalDuration = 0;
+
+        if (s >= min1) {
+            s -= min1;
+            totalDuration++;
+        } else {
+            return 0;
+        }
+
+        for (int i = 2; i <= 10; i++) {
+            if (s >= min2_10) {
+                s -= min2_10;
+                totalDuration++;
+            } else {
+                return totalDuration;
+            }
+        }
+
+        while (s >= min11) {
+            s -= min11;
+            totalDuration++;
+        }
+
+        return totalDuration;
     }
 }
