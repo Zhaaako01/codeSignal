@@ -1,4 +1,4 @@
-package Gates;
+package theCore.gates;
 
 public class Task5 {
     //Given a divisor and a bound, find the largest integer N such that:

@@ -1,4 +1,4 @@
-package Gates;
+package theCore.gates;
 
 public class Test8 {
     //Some phone usage rate may be described as follows:
@@ -14,10 +14,10 @@ public class Test8 {
     //solution(min1, min2_10, min11, s) = 14.
 
     public static void main(String[] args) {
-        int min1 = 10;
-        int min2_10 = 10;
-        int min11 = 10;
-        int s = 8;
+        int min1 = 3;
+        int min2_10 = 2;
+        int min11 = 2;
+        int s = 20;
         System.out.println(solution(min1, min2_10, min11, s));
     }
 

@@ -1,4 +1,4 @@
-package Gates;
+package theCore.gates;
 
 public class Test7 {
 //Using the bike's timer, calculate the current time. Return an answer as the sum of digits

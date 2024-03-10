@@ -1,4 +1,4 @@
-package Gates;
+package theCore.gates;
 
 public class Test4 {
 

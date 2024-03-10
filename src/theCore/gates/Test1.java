@@ -1,4 +1,4 @@
-package Gates;
+package theCore.gates;
 
 public class Test1 {
     // You are given a two-digit integer n. Return the sum of its digits.
